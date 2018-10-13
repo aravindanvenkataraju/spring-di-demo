@@ -17,8 +17,8 @@ public class SpringDiDemoApplication {
 		
 		MyController controller = (MyController)ctx.getBean("myController");
 		
-		controller.hello();
-		
+		//controller.hello();
+		System.out.println(controller.hello());
 		System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
 		System.out.println(ctx.getBean(SetterInjectedController.class).sayHello());
 		System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
