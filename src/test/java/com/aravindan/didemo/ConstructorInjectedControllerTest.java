@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.aravindan.didemo.controllers.ConstructorInjectedController;
-import com.aravindan.didemo.services.GreetingServiceImpl;
+import com.aravindan.services.GreetingServiceImpl;
 
 public class ConstructorInjectedControllerTest {
 
